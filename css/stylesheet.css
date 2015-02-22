@@ -1,0 +1,151 @@
+html, body {
+	font: 12px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+	background: rgb(139, 187, 225);
+	background: -moz-linear-gradient(90deg, rgb(139, 187, 225) 50%, rgb(24, 28, 31) 100%);
+	background: -webkit-linear-gradient(90deg, rgb(139, 187, 225) 50%, rgb(24, 28, 31) 100%);
+	background: -o-linear-gradient(90deg, rgb(139, 187, 225) 50%, rgb(24, 28, 31) 100%);
+	background: -ms-linear-gradient(90deg, rgb(139, 187, 225) 50%, rgb(24, 28, 31) 100%);
+	background: linear-gradient(180deg, rgb(139, 187, 225) 50%, rgb(24, 28, 31) 100%);
+}
+#header {
+	width: 900px;
+	text-align: left;
+	margin-bottom: 2px;
+	background: center no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFEA00;
+}
+h1 {
+	font: 50px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	color: #2d2d2d;
+	font-weight: bold;
+	padding: 40px 0 0 70px;
+}
+h2 {
+	font: 11px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	color: white;
+	font-weight: bold;
+}
+h3 {
+	font: 18px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	color: #FFEA00;
+	font-weight: bold;
+	margin-left: 90px;
+}
+#container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content {
+	width: 900px;
+}
+#left_box {
+	margin-top: 5px;
+	padding-top: 10px;
+	width: 150px;
+	margin-left: 1px;
+	padding-bottom: 10px;
+	float: left;
+}
+#navigation {
+	width: 250px;
+	float: left;
+	height:700px;
+}
+#navigation p {
+	padding: 15px 0 0 35px;
+}
+#navigation ul {
+	margin: 10px 0 0 10px;
+	list-style: none;
+}
+#navigation li {
+	background-image: url(camera.html);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	padding: 4px 0 4px 25px;
+	margin: 5px 0 5px 23px;
+	font-weight: bold;
+	
+}
+#right_box {
+	width: 50%;
+	float: right;
+	height: 675px;
+	overflow-y: auto;
+}
+#thumbnails {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.thumbnail {
+	float: left;
+	width: 31%;
+	height: 120px;
+	margin: 5px;
+}
+#paypal{
+	margin-left:auto;
+	margin-right:auto;
+    bottom: 0;
+    left: 0;
+padding-left:60px;
+}
+#thumbnails li {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.photocontainer {
+	width: 60px;
+	height: 60px;
+	margin: 10px 10px 10px 10px;
+	background-color: #fff;
+	border: 1px solid #000;
+	float: left;
+}
+.photo {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	top: 4px;
+	left: 4px;
+	border: 1px solid #666666;
+}
+#footer {
+	width: 100%;
+	margin-top: 20px;
+	height: 50px;
+	padding-top: 30px;
+	text-align: center;
+	font: 10px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	clear: both;
+	border-top: 3px solid #FFEA00;
+}
+#footer a {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+
+#rotating-item-wrapper {
+	position: relative;
+	width: 120px;
+	height: 120pxpx;
+}
+.rotating-item {
+	display: none;
+	position: absolute;
+	
+}
+.clearFloat { clear: both;} 
