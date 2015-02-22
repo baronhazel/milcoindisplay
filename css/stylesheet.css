@@ -1,5 +1,5 @@
 html, body {
-	font: 12px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	font: 12px tahoma, "Lucida Grande", Verdana, Sans-Serif;
 	color: white;
 	margin: 0;
 	padding: 0;
@@ -24,18 +24,18 @@ a {
 	color: #FFEA00;
 }
 h1 {
-	font: 50px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	font: 50px tahoma, "Lucida Grande", Verdana, Sans-Serif;
 	color: #2d2d2d;
 	font-weight: bold;
 	padding: 40px 0 0 70px;
 }
 h2 {
-	font: 11px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	font: 11px tahoma, "Lucida Grande", Verdana, Sans-Serif;
 	color: white;
 	font-weight: bold;
 }
 h3 {
-	font: 18px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	font: 18px tahoma, "Lucida Grande", Verdana, Sans-Serif;
 	color: #FFEA00;
 	font-weight: bold;
 	margin-left: 90px;
@@ -49,17 +49,19 @@ h3 {
 	width: 900px;
 }
 #left_box {
-	margin-top: 5px;
+	margin-top: 20px;
 	padding-top: 10px;
-	width: 150px;
+	width: 190px;
 	margin-left: 1px;
 	padding-bottom: 10px;
 	float: left;
+	height: 675px;
+	overflow-y: auto;
 }
 #navigation {
 	width: 250px;
 	float: left;
-	height:700px;
+	height: 700px;
 }
 #navigation p {
 	padding: 15px 0 0 35px;
@@ -75,7 +77,6 @@ h3 {
 	padding: 4px 0 4px 25px;
 	margin: 5px 0 5px 23px;
 	font-weight: bold;
-	
 }
 #right_box {
 	width: 50%;
@@ -95,12 +96,12 @@ h3 {
 	height: 120px;
 	margin: 5px;
 }
-#paypal{
-	margin-left:auto;
-	margin-right:auto;
-    bottom: 0;
-    left: 0;
-padding-left:60px;
+#paypal {
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	left: 0;
+	padding-left: 60px;
 }
 #thumbnails li {
 	margin: 0;
@@ -129,7 +130,7 @@ padding-left:60px;
 	height: 50px;
 	padding-top: 30px;
 	text-align: center;
-	font: 10px tahoma, Lucida Grande, Verdana, Sans-Serif;
+	font: 10px tahoma, "Lucida Grande", Verdana, Sans-Serif;
 	clear: both;
 	border-top: 3px solid #FFEA00;
 }
@@ -137,7 +138,6 @@ padding-left:60px;
 	color: #fff;
 	border-bottom: 1px dotted #fff;
 }
-
 #rotating-item-wrapper {
 	position: relative;
 	width: 120px;
@@ -146,6 +146,7 @@ padding-left:60px;
 .rotating-item {
 	display: none;
 	position: absolute;
-	
 }
-.clearFloat { clear: both;} 
+.clearFloat {
+	clear: both;
+}
